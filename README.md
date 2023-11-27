@@ -44,9 +44,10 @@ export default defineConfig({
 This plugin **respects [the `server.fs` options]**. Other than that, there's no
 available configuration. If you have need a config option, [open an Issue]!
 
+<!-- prettier-ignore-start -->
 [Vite]: https://vitejs.dev/
-[the `server.fs` options]:
-  https://vitejs.dev/config/server-options.html#server-fs-strict
+[the `server.fs` options]: https://vitejs.dev/config/server-options.html#server-fs-strict
 [open an issue]: https://github.com/jcbhmr/vite-plugin-directory-index/issues
 [yarn]: https://yarnpkg.com/
 [pnpm]: https://pnpm.io/
+<!-- prettier-ignore-end -->
