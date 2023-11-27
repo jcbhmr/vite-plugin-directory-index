@@ -7,17 +7,25 @@
 </p>
 
 ⚡ Works with [Vite] \
-📂 Great for `test/my-test.html` project layouts \
+📂 Great for HTML files in subfolders like `test/app.test.html` \
 🖥️ Rendered on the server only in development \
 📦 Doesn't affect your build output
 
 ## Installation
+
+![npm](https://img.shields.io/static/v1?style=for-the-badge&message=npm&color=CB3837&logo=npm&logoColor=FFFFFF&label=)
+![Yarn](https://img.shields.io/static/v1?style=for-the-badge&message=Yarn&color=2C8EBB&logo=Yarn&logoColor=FFFFFF&label=)
+![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)
+
+You can install this package using npm or your favorite npm package manager like [Yarn] or [pnpm].
 
 ```sh
 npm install --save-dev vite-plugin-directory-index
 ```
 
 ## Usage
+
+![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)
 
 ```js
 // vite.config.js
@@ -37,3 +45,5 @@ This plugin **respects [the `server.fs` options]**. Other than that, there's no 
 [Vite]: https://vitejs.dev/
 [the `server.fs` options]: https://vitejs.dev/config/server-options.html#server-fs-strict
 [open an issue]: https://github.com/jcbhmr/vite-plugin-directory-index/issues
+[yarn]: https://yarnpkg.com/
+[pnpm]: https://pnpm.io/
