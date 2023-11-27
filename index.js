@@ -281,9 +281,7 @@ function directoryIndex(options = {}) {
   let config;
   return {
     name: "directory-index",
-    configResolved(config2) {
-      config = config2;
-    },
+    configResolved: (c) => (config = c),
     configureServer(server) {
       if (config.mode !== "development") {
         return;
