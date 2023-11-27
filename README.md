@@ -14,7 +14,7 @@
 ## Installation
 
 ```sh
-npm install vite-plugin-directory-index
+npm install --save-dev vite-plugin-directory-index
 ```
 
 ## Usage
