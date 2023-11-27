@@ -17,7 +17,8 @@
 ![Yarn](https://img.shields.io/static/v1?style=for-the-badge&message=Yarn&color=2C8EBB&logo=Yarn&logoColor=FFFFFF&label=)
 ![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)
 
-You can install this package using npm or your favorite npm package manager like [Yarn] or [pnpm].
+You can install this package using npm or your favorite npm package manager like
+[Yarn] or [pnpm].
 
 ```sh
 npm install --save-dev vite-plugin-directory-index
@@ -40,10 +41,12 @@ export default defineConfig({
 
 ### Options
 
-This plugin **respects [the `server.fs` options]**. Other than that, there's no available configuration. If you have need a config option, [open an Issue]!
+This plugin **respects [the `server.fs` options]**. Other than that, there's no
+available configuration. If you have need a config option, [open an Issue]!
 
 [Vite]: https://vitejs.dev/
-[the `server.fs` options]: https://vitejs.dev/config/server-options.html#server-fs-strict
+[the `server.fs` options]:
+  https://vitejs.dev/config/server-options.html#server-fs-strict
 [open an issue]: https://github.com/jcbhmr/vite-plugin-directory-index/issues
 [yarn]: https://yarnpkg.com/
 [pnpm]: https://pnpm.io/
